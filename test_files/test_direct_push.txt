@@ -1,0 +1,10 @@
+This is a test text file.
+Created by the GitHub push test script.
+This file will be pushed to GitHub.
+
+Test content:
+- Line 1
+- Line 2
+- Line 3
+
+End of file.
