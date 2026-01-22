@@ -1,0 +1,10 @@
+{
+    "test": true,
+    "timestamp": "2024-01-01T00:00:00Z",
+    "description": "Test JSON file for GitHub push",
+    "data": {
+        "key1": "value1",
+        "key2": "value2",
+        "numbers": [1, 2, 3, 4, 5]
+    }
+}
