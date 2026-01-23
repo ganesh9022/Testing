@@ -1,0 +1,18 @@
+{
+  "ruleId": "R-6615",
+  "name": "EC Coverage Validation Rule",
+  "description": "Validates EC coverage against sale deed registration dates",
+  "documentType": "SALEDEED + EC",
+  "severity": "CRITICAL",
+  "priority": "MEDIUM",
+  "status": "PENDING_APPROVAL",
+  "source": "MANUAL",
+  "conditionLogic": "User uploads SALEDEED and EC and Sale deed has MULTIPLE survey numbers",
+  "expectedResult": "EC years must cover the FULL year gap between registration dates specified in the documents.",
+  "passExample": "Sale deed registered in 2018, EC covers 2017-2020",
+  "failExample": "Sale deed registered in 2018, EC only covers 2019-2020 (missing 2017-2018)",
+  "passMessage": "Valid registration sequence",
+  "failMessage": "Error: Missing coverage for registration period",
+  "version": 1,
+  "isActive": true
+}
