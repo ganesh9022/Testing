@@ -14,5 +14,5 @@
   "passMessage": "Valid registration sequence",
   "failMessage": "Error: Missing coverage for registration period",
   "version": 1,
-  "isActive": true
+  "isActive": False
 }
